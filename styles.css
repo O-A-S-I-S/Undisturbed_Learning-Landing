@@ -1,0 +1,47 @@
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    height: 50px;
+    width: 100%;
+    max-width: 1000px;
+    vertical-align: middle;
+    padding: 0 auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+.main-title {
+    background-color: #EF4444;
+}
+
+.main-title h1 {
+    color: #fff;
+}
+
+img {
+    object-fit: scale-down;
+}
+
+.services {
+    display: flex;
+}
+
+.module {
+    width: 24%;
+}
+
+.upper {
+    display: flex;
+}
+
+.service-img {
+    border-radius: 10px;
+}
+
+a:hover {
+    cursor: pointer;
+}
